@@ -1,0 +1,49 @@
+
+
+.bcde-l-homepage__side {
+
+}
+
+.bcde-header {
+  border-bottom: 1px dotted #555;
+  margin-bottom:5px;
+  margin-top:5px;
+  background: pink;
+}
+
+.bcde-header__logo{
+  display: block;
+  float: left;
+  background: yellow;
+
+}
+
+
+.bcde-header__navigation {
+  float: right;
+  background: orange;
+}
+
+@media (max-width: 892px) {
+  .bcde-header__logo, .bcde-header__navigation{
+    float: none;
+  }
+}
+
+
+
+@media (min-width: @screen-sm-min) {
+ .bcde-l-homepage__side {
+   display:none;
+ }
+}
+
+
+.bcde-footer__navigation {
+  float:left;
+}
+
+.bcde-footer__logo {
+  display: block;
+  float: right;
+}

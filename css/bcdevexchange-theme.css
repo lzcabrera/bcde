@@ -6,27 +6,53 @@
 
 .bcde-header {
   border-bottom: 1px dotted #555;
-  margin-bottom:5px;
+  margin-bottom:25px;
   margin-top:5px;
-  background: pink;
+  padding-bottom: 20px;
+  /*background: pink;*/
 }
 
 .bcde-header__logo{
   display: block;
   float: left;
-  background: yellow;
+  /*background: yellow;*/
 
 }
 
 
 .bcde-header__navigation {
   float: right;
-  background: orange;
+  /*background: orange;*/
 }
 
-@media (max-width: 892px) {
+@media (max-width: 991px) {
   .bcde-header__logo, .bcde-header__navigation{
     float: none;
+  }
+}
+
+.bcde-l-homepage__section {
+
+  padding-bottom: 25px;
+  margin-top: 5px;
+  /*background: purple;*/
+}
+.bcde-l-homepage__side {
+
+  padding-top: 30px;
+  text-align: right;
+  /*background: aqua;*/
+}
+
+.bcde-l-homepage__content {
+  border-bottom: 1px dotted #555;
+  margin-bottom:5px;
+  /*background: yellow;*/
+}
+
+@media (max-width: 991px) {
+  .bcde-l-homepage__side {
+    display: none;
   }
 }
 
