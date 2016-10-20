@@ -11,9 +11,9 @@
     <title>Theme Template for BC Developers' Exchange</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
-    <link href="../bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- BC Developers' Exchange Helpers theme -->
     <link href="css/bcdevexchange-theme-helpers.css" rel="stylesheet">
@@ -29,6 +29,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/behaviour.js"></script>
 
   </head>
   <body>
@@ -45,7 +48,7 @@
 
         <div class="bcde-l-header__content col-md-11 clearfix">
 
-              <a class="bcde-header__navigation-toggle-mobile" href="">
+              <a class="bcde-header__navigation-toggle-mobile" data-toggle="collapse" href="#js-bcde-header__navigation-container" aria-expanded="false">
                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
               </a>
 
@@ -55,7 +58,7 @@
 
               <a class="bcde-header__logo__text">BC Developers' Exchange</a>
 
-              <nav class="bcde-header__navigation-container">
+              <nav class="collapse bcde-header__navigation-container" id="js-bcde-header__navigation-container">
                 <ul class="nav nav-pills bcde-header__navigation" role="tablist">
                   <li><a href="" title="About">About</a></li>
                   <li><a href="" title="Open Opportunities">Open Opportunities</a></li>

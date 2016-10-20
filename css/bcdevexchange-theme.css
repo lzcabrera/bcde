@@ -1,4 +1,6 @@
-
+html, body {
+  background: #eee;
+}
 
 .bcde-header {
   padding-top: 30px;
@@ -22,7 +24,7 @@
   float: left;
   font-size: 1.4em;
   font-weight: bold;
-  color: blue;
+  color: #0042ff;
   padding-top: 18px;
   /*background: red;*/
 }
@@ -37,6 +39,10 @@
   padding-bottom: 10px;
 }
 
+.js-open.bcde-header__navigation-container{
+  background: purple;
+}
+
 @media (max-width: 991px) {
 
   .bcde-header{
@@ -49,7 +55,7 @@
     font-size: 2em;
     padding-top: 2px;
     padding-right: 10px;
-    color: blue;
+    color: #7f7f7f;
     /*background: aqua;*/
   }
   .bcde-header__logo-container{
@@ -69,6 +75,7 @@
   .bcde-header__logo-mobile {
     width: 30px;
   }
+
 
   .bcde-header__navigation-container{
     /*display: none;*/
@@ -157,4 +164,43 @@
   .bcde-footer__navigation:nth-child(2) {
     text-align: right;
   }
+}
+
+@media (max-width: 767px) {
+  .bcde-l-contentpage__container {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: aqua;
+  }
+}
+
+
+.bcde-l-contentpage-side{
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top:30px;
+}
+.bcde-l-contentpage-side .label-section {
+  background: #f0ad4e;
+  color: #000;
+  border-radius: 0;
+}
+
+.bcde-l-contentpage__content h2,
+.bcde-l-contentpage__content h3,
+.bcde-l-contentpage__content h4 {
+  margin-left: -15px;
+}
+
+.bcde-l-contentpage__content h2{
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bcde-l-contentpage__side-menu {
+  padding: 15px;
+  background: #fff;
+  margin-bottom: 20px;
 }
