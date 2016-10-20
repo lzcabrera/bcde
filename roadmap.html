@@ -14,8 +14,15 @@
     <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
     <link href="../bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- BC Developers' Exchange Helpers theme -->
+    <link href="css/bcdevexchange-theme-helpers.css" rel="stylesheet">
+
+    <!-- BC Developers' Exchange theme -->
+    <link href="css/bcdevexchange-theme.css" rel="stylesheet">
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -25,46 +32,186 @@
 
   </head>
   <body>
-    <header>
-      <a href="" title="BC Developers' Exchange"><img src="" alt="BC Deverlopers' Exchange Logo"></a>
-      <h1>BC Developers' Exchange</h1>
-      <nav>
-        <ul class="nav nav-pills" role="tablist">
-          <li><a href="" title="About">About</a></li>
-          <li><a href="" title="Open Opportunities">Open Opportunities</a></li>
-          <li><a href="" title="Open APIs">Open APIs</a></li>
-          <li><a href="" title="Kick Start Program">Kick Start Program</a></li>
-          <li><a href="" title="Roadmap">Roadmap</a></li>
-        </ul>
-      </nav>
-    </header>
+
+    <div class="container">
+
+      <header class="bcde-header row">
+
+        <div class="col-md-1 bcde-header__logo-container">
+          <a href="" class="bcde-header__logo">
+            <img src="assets/logo-image.png" alt="BC Developers' Exchange Logo"/>
+          </a>
+        </div>
+
+        <div class="bcde-l-header__content col-md-11 clearfix">
+
+              <a class="bcde-header__navigation-toggle-mobile" href="">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </a>
+
+              <a href="" class="bcde-header__logo-mobile-container">
+                <img class="bcde-header__logo-mobile" src="assets/logo-image.png" alt="BC Developers' Exchange Logo"/>
+              </a>
+
+              <a class="bcde-header__logo__text">BC Developers' Exchange</a>
+
+              <nav class="bcde-header__navigation-container">
+                <ul class="nav nav-pills bcde-header__navigation" role="tablist">
+                  <li><a href="" title="About">About</a></li>
+                  <li><a href="" title="Open Opportunities">Open Opportunities</a></li>
+                  <li><a href="" title="Open APIs">Open APIs</a></li>
+                  <li><a href="" title="Kick Start Program">Kick Start Program</a></li>
+                  <li><a href="" title="Roadmap">Roadmap</a></li>
+                </ul>
+              </nav>
+
+        </div>
+
+      </header>
 
     <main>
 
-      <p>We are sharing our service roadmap as part of a concerted e ort to engage with B.C.’s tech community,
-        and to enable them to help shape, re ne and contribute to the development of the BCDevExchange.
-      </p>
+      <section class="row">
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="col-md-11">
+
+          <h1>Roadmap</h1>
+
+
+          <h5>Contents</h5>
+          <ul>
+            <li>Introduction</li>
+            <li>Where Did the Roadmap Come From?</li>
+              How to Use This Roadmap</li>
+            <li>How to Contribute</li>
+          </ul>
+
+          <h5>The Epics</h5>
+          <ul>
+            <li>Kick Start</li>
+            <li>Sprint With Us</li>
+            <li>Code for Government Ready Products </li>
+            <li>Code With Us - Paid</li>
+          </ul>
+
+          <p>We are sharing our service roadmap as part of a concerted e ort to engage with B.C.’s tech community,
+            and to enable them to help shape, re ne and contribute to the development of the BCDevExchange.
+          </p>
+
+          <p>Early on, B.C.'s tech community told us we should build the BCDevExchange in collaboration; advice we have taken to heart.</p>
+
+          <p>From the beginning, we published the open source code that powers the BCDevExchange app in
+            GitHub, the popular online code sharing platform, and worked to openly share a growing number
+            of digital resources, including APIs, code and data.</p>
+
+          <p>We are partnering with the developers, app builders, start-ups and public sector innovators;
+            those who we want as users of the BCDevExchange.</p>
+
+          <p>We invite you to see what we are doing, and we welcome your advice and contributions on
+            how to evolve the BCDevExchange.</p>
+
+
+          <p>Where did the roadmap come from?</p>
+
+          <p>The BCDevExchange team is treating this initiative as a type of "lean start-up" e ort,
+            with a customer-centered service design and an Agile methodology. We build, test and
+            re ne based on our user’s feedback to ensure we deliver value to them.</p>
+
+          <p>The roadmap was derived through work we did with our community last year, and may change based on further feedback from our community.</p>
+
+          <p>To create the roadmap, we  rst examined our research  ndings on common business needs in the
+             community. We then determined how we could meet those business needs with a range of services
+             that you will  nd in this roadmap.</p>
+
+          <p>We realized that business needs could be grouped into cultural, process and technological
+            transformations with the objectives of accelerating the speed of delivering value and
+            increasing code quality.</p>
+
+
+          <p>  HOW TO USE THIS ROADMAP</p>
+
+          <p>In broad terms, this roadmap describes the potential services of the BCDevExchange.
+          These are the Epics – our big pieces of work. Each Epic has a high-level user story and
+          the stages we will follow, beginning with customer discovery and user research.</p>
+
+          <p>For more detail, each Epic is broken down into smaller user stories which can be viewed
+          and commented on in our Kanban boards. At the smaller user story level, you can  nd and
+          explore the tasks and associated artifacts related to each story.</p>
+
+          <p>These Kanban boards organize our user stories into three groups. Using Agile parlance we
+          have our product backlog, work currently underway during our current two-week development
+          sprint, and completed work.</p>
+
+          <p>To see what we’re working on please visit our Kanboard.</p>
+
+
+        </div>
+
+      </section>
+
+      <section class="row">
+
+        <div class="col-md-1">
+          <h4><span class="label label-warning">Epic 1</span></h4>
+        </div>
+
+        <div class="col-md-11">
+
+          <h2>Kick Start Your First Release</h2>
+
+          <p>What is Kickstart</p>
+          <p>We encourage you to explore, examine and share your ideas as we are always looking for input that will help us provide greatest value to our users.</p>
+
+          <p>These are the ways you can contribute to the roadmap:</p>
+
+          <p>The code and content for the roadmap is all in this GitHub repo. Send us a pull request with your suggested edits.
+            If you have a question about the roadmap, open an issue in the repo and we will respond.
+            Each of the smaller user stories is an issue in GitHub. Comment on the issue to give your feedback.
+            To see what we're working on please visit our Kanboard.</p>
+
+        </div>
+
+      </section>
 
     </main>
 
 
-    <footer>
-      <ul class="nav nav-pills">
-        <li><a href="" title="About">About</a></li>
-        <li><a href="" title="Open Opportunities">Open Opportunities</a</li>
-        <li><a href="" title="Open APIs">Open APIs</a</li>
-        <li><a href="" title="Kick Start Program">Kick Start Program</a</li>
-        <li><a href="" title="Roadmap">Roadmap</a></li>
-      </ul>
+    <footer class="bcde-footer row">
 
-      <ul class="nav nav-pills">
-        <li><a href="" title="Blog">Blog</a></li>
-        <li><a href="" title="Resources">Resources</a></li>
-        <li><a href="" title="Legal">Legal</a></li>
-        <li><a href="" title="Contact">Contact</a></li>
-      </ul>
+      <div class="bcde-footer__logo-container col-md-1">
+        <a href="" class="bcde-footer__logo">
+          <img src="assets/logo-image.png" alt="BC Developers' Exchange Logo"/>
+        </a>
+      </div>
 
-      <a href="" title="Supported by the Government of British Columbia"><img src="" alt="Supported by the Government of British Columbia Logo"></a>
+
+      <div class="col-md-9">
+        <div class="bcde-footer__navigation-container">
+          <ul class="nav nav-pills bcde-footer__navigation">
+            <li><a href="" title="About">About</a></li>
+            <li><a href="" title="Open Opportunities">Open Opportunities</a</li>
+            <li><a href="" title="Open APIs">Open APIs</a</li>
+            <li><a href="" title="Kick Start Program">Kick Start Program</a</li>
+            <li><a href="" title="Roadmap">Roadmap</a></li>
+          </ul>
+
+          <ul class="nav nav-pills bcde-footer__navigation">
+            <li><a href="" title="Blog">Blog</a></li>
+            <li><a href="" title="Resources">Resources</a></li>
+            <li><a href="" title="Legal">Legal</a></li>
+            <li><a href="" title="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bcde-footer__logo-container col-md-2">
+        <a class="bcde-sponsor-logo" href="" title="Supported by the Government of British Columbia"><img src="assets/bc-sponsor.jpg" alt="Supported by the Government of British Columbia Logo"></a>
+      </div>
     </footer>
-  <body>
+
+  </div>
+<body>
 </html>
